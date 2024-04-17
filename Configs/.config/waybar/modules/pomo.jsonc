@@ -1,0 +1,10 @@
+
+ "custom/pomo": {
+    "exec": "~/scripts/i3blocks-scripts/i3-gnome-pomodoro/waybar.sh",
+     "return-type": "json",
+     "interval": 1,
+     "format": "{}",
+     "on-click": "i3-gnome-pomodoro start",
+     "on-click-middle": "i3-gnome-pomodoro stop",
+     "on-click-right": "i3-gnome-pomodoro toggle",
+ },
